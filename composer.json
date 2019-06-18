@@ -10,7 +10,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "PHP_Exceptionizer\\": "lib/PHP"
+            "Exceptionizer\\": "lib/PHP"
         }
     }
 }
