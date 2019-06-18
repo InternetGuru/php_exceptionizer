@@ -73,7 +73,7 @@ class PHP_Exceptionizer_Catcher
 }
 
 
-abstract class PHP_Exceptionizer_Exception extends Exception 
+abstract class PHP_Exceptionizer_Exception extends \Exception 
 {
     public function __construct($no = 0, $str = null, $file = null, $line = 0) 
     {
