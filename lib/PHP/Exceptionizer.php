@@ -1,5 +1,7 @@
 <?php
 
+namespace Exceptionizer;
+
 /**
  * Usage:
  *   ...
