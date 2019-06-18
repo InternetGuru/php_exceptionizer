@@ -68,6 +68,7 @@ class PHP_Exceptionizer_Catcher
                 break;
             }
         }
+        $className = __NAMESPACE__."\\$className";
         throw new $className($errno, $errstr, $errfile, $errline);
     }
 }
